@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2><i class="fas fa-user-edit"></i> Personal Information</h2>
+            <form id="resume-form">
+                <label for="name"><i class="fas fa-user"></i> Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone"><i class="fas fa-phone"></i> Phone</label>
+                <input type="tel" id="phone" name="phone">
+                
+              
+
+                <label for="profile-picture"><i class="fas fa-image"></i> Profile Picture URL</label>
+                <input type="url" id="profile-picture" name="profile-picture">
+                
+            </form>
+        </div>
+        
+        <div class="resume-preview">
+            <h2><i class="fas fa-file-alt"></i> Resume Preview</h2>
+            <div class="profile-picture">
+                <img src="" alt="Profile Picture" id="preview-picture">
+            </div>
+            <ul>
+                <li>
+                    <header>
+                        <p class="sanserif">Name</p>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Email</p>
+                        <time>john.doe@example.com</time>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Phone</p>
+                        <time></time>
+                    </header>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-section">
+            <h2><i class="fa-solid fa-laptop"></i>Experience</h2>
+            <form id="resume-form">
+                <label for="name"><i class="fas fa-user"></i> Company Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="role"><i class="fa-solid fa-address-book"></i> Your Role</label>
+                <input type="text" id="role" name="role" required>
+                
+                <label for="date"><i class="fa-solid fa-business-time"></i>Start Date:</label>
+                <input type="text" id="date" name="date">
+                
+                <label for="date"><i class="fa-solid fa-business-time"></i>End Date:</label>
+                <input type="text" id="date" name="date">
+                
+
+                <label for="profile-picture"><i class="fa-solid fa-graduation-cap"></i> Achivments</label>
+                <input type="url" id="profile-picture" name="profile-picture">
+                
+            </form>
+        </div>
+        
+        <div class="resume-preview">
+            <h2><i class="fas fa-file-alt"></i> Resume Preview</h2>
+            <div class="profile-picture">
+                <img src="" alt="Profile Picture" id="preview-picture">
+            </div>
+            <ul>
+                <li>
+                    <header>
+                        <p class="sanserif">Name</p>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Email</p>
+                        <time>john.doe@example.com</time>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Phone</p>
+                        <time></time>
+                    </header>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-section">
+            <h2><i class="fa-solid fa-list"></i></i>Skills</h2>
+            <form id="resume-form">
+                <label for="name"><i class="fa-solid fa-code"></i> Technical Skills:</label>
+                <input type="text" id="skill" name="skill" required>
+                
+    
+                <label for="skills"><i class="fa-solid fa-business-time"></i>Soft Skills:</label>
+                <input type="text" id="skills" name="skills">
+                
+            
+                
+                
+            </form>
+        </div>
+        
+        <div class="resume-preview">
+            <h2><i class="fas fa-file-alt"></i> Resume Preview</h2>
+            <div class="profile-picture">
+                <img src="" alt="Profile Picture" id="preview-picture">
+            </div>
+            <ul>
+                <li>
+                    <header>
+                        <p class="sanserif">Name</p>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Email</p>
+                        <time>john.doe@example.com</time>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Phone</p>
+                        <time></time>
+                    </header>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-section">
+            <h2><i class="fa-solid fa-user-graduate"></i>Education</h2>
+            <form id="resume-form">
+                <label for="name"><i class="fa-solid fa-graduation-cap"></i> University Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="degree"><i class="fa-solid fa-address-book"></i> Your Degree</label>
+                <input type="text" id="degree" name="degree" required>
+                
+                <label for="phone"><i class="fa-solid fa-business-time"></i>Start Date:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="phone"><i class="fa-solid fa-business-time"></i>End Date:</label>
+                <input type="tel" id="phone" name="phone">
+                
+
+                <label for="profile-picture"><i class="fa-solid fa-graduation-cap"></i> Achivments</label>
+                <input type="text" id="profile-picture" name="profile-picture">
+                
+                <input type="submit" value="Generate Resume">
+            </form>
+        </div>
+        
+        <div class="resume-preview">
+            <h2><i class="fas fa-file-alt"></i> Resume Preview</h2>
+            <div class="profile-picture">
+                <img src="" alt="Profile Picture" id="preview-picture">
+            </div>
+            <ul>
+                <li>
+                    <header>
+                        <p class="sanserif">Name</p>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Email</p>
+                        <time>john.doe@example.com</time>
+                    </header>
+                </li>
+                <li>
+                    <header>
+                        <p class="sanserif">Phone</p>
+                        <time></time>
+                    </header>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
